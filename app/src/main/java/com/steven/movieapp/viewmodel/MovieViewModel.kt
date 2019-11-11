@@ -18,7 +18,6 @@ class MovieViewModel : ViewModel() {
     fun getInTheaters(): LiveData<BaseResult<List<Movie>>> =
         RetrofitClient.serviceApi.getInTheaters(API_KEY)
 
-
     /**
      * 即将上映
      */
